@@ -200,7 +200,7 @@ body{
     }
   /* custom scrollbar */
   body::-webkit-scrollbar {
-    width: 9px;              
+    width: 3px;              
   }
   
   body::-webkit-scrollbar-track {
@@ -211,7 +211,7 @@ body{
   body::-webkit-scrollbar-thumb {
     background-color: #cc02ff;    
     border-radius: 10px;      
-    border: 2px solid ;  
+    
   }
   
 
@@ -355,10 +355,29 @@ img {
   .center {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
    
      
    }
   }
+
+  @media screen and (max-width: 1000px){
+    .btn1{
+      
+      height: auto;
+     }
+     .sign_word{
+       font-size: 20px;
+     }
+     .item1, .item2, .item3, .item4, .item5, .item6{
+       height: auto;
+     }
+    }
+    @media screen and (max-width: 700px){
+       .sign_word{
+         font-size: 15px;
+       }
+      }
 .ss{
   
   padding-top: 70px ;
@@ -387,4 +406,6 @@ img {
 }
 
 /*Modal box */
+
+
 
